@@ -1,0 +1,51 @@
+.grid-container{
+    text-align: center;/*Alinear elementos al centro*/
+    display: grid; /*Indica la forma en como se muestran los elementos*/
+    grid-template-columns: auto auto auto; /*Indica cuantas columnas vamos a utilizar*/
+    gap: 10px; /*Espacios entre columnas*/
+}
+
+.grid-container > div{
+    border: 1px solid black;
+    background-color: bisque;
+}
+
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 10;
+}
+
+#barraNavegacion{
+    background-color: orange;
+}
+
+#imagenes{
+    background-color: blueviolet;
+}
+
+#parrafo1{
+    background-color: red;
+}
+
+#parrafo2{
+    background-color: gold;
+}
+
+#boton1{
+    background-color: blue;
+}
+
+#boton2{
+    background-color: brown;
+}
+
+#footer{
+    background-color: aqua;
+}
+
+.container-excel{
+    display: grid;
+}
+

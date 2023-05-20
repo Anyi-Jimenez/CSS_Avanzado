@@ -1,0 +1,106 @@
+/* Estilo del body*/
+
+body{
+    text-align: center;
+    height: 10000px;
+}
+
+/* Estilos para la clase container */
+.container{
+    margin: 25px;
+    border: 1px solid black;
+}
+
+span{
+    color: blueviolet;
+    border: 1px solid red;
+}
+
+
+/*Posiciones*/
+
+/*static
+
+Es la posición por defecto, todos los elementos HTML son estáticos, los elementos se posicionan en el flujo normal del docuemnto (arriba a abajo, izquierda a derecha). Los valores top, bottom, right y left no tienen efecto sobre esta propiedad.  */
+
+
+.position1{
+    position: static; /*Como se va a colocar*/
+    top: 30px;
+    left: 10px;
+}
+
+/* Relative
+
+Posiciona el elemento en relacion con su posicion normal en el flujo del documento. A pesar de que el elemento comienza con una posicion normal, si le afectan los valores que modifiquemos en top, bottom, left y right.
+
+*/
+
+.position2{
+    position: relative; /*Como se va a colocar*/
+    top: 10px;
+    left: 20px;
+}
+.
+
+
+
+/* Fixed 
+
+Se modifica dependiendo la posicion de la pantalla y depende tambien de cuanto espacio tenemos disponible (viewport que es lo que el usuario ve actualmente en la pantalla).
+
+Este estilo se aplica generalemnte a barras de navegacion. Cuando aplicamos esta propiedad, aseguramos que el elemento se mantenga visible independientemente de como se ajuste la ventana (viewport). Es similar al absolute, pero el elemento se posiciona en relacion a la ventana del navegador, mas no al body.
+
+*/
+
+.position3{
+    position: fixed; /*Como se va a colocar*/
+    top: 500px;
+    left: 20px;
+}
+
+
+
+
+
+
+.container-padre{
+
+    margin: 25px;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+
+
+.position4{
+    position: absolute; /*Como se va a colocar*/
+    top: 50px;
+}
+
+/* Sticky
+
+Se utiliza para fijar o pegar un elemento en una posicion especifica de la ventana del navegador. Esto significa que el elemento se va a comportar como una posicion relativa HASTA que se desplaza a una posicion en la que se debe fijar. 
+*/
+
+
+.position5{
+    position: sticky; /*Como se va a colocar*/
+    top: 50px;
+}
+
+/* aatributo position
+
+Sirve para poner o acomodar los elementos dentro de nuestro documento html.
+
+La propiedad de position de CSS se utiliza para controlar la ubicacion y el posicionamiento de un elemento HTML en una pagina. La propiedad position acepta diferentes valores, cada uno de los cuales determina como se posiciona un elemento en relacion con su elemento padre o en relacion con la ventana del navegador (el flujo normal de nuestra ventana es a partir de la esquina superior izquierda).
+
+-static
+-relative
+-absolute
+-fixed
+-sticky
+
+
+
+*/
